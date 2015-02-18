@@ -134,8 +134,8 @@ function domains-to-ips() {
 
 
 function upload() {
-        echo Uploading $1 to https://linux01.everycity.co.uk/~riccardo/$1
-            rsync -axvEP $1 riccardo@linux01:~/public_html
+        echo Uploading $1 to https://somedomain.com/~riccardo/$1
+            rsync -axvEP $1 username@servername:~/public_html
 }
 
 lp() {
